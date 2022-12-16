@@ -10,6 +10,13 @@ h1 {
   font-size: bold;
 }
 
+h2 {
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  color: rgb(25, 200, 188);
+  font-size: bold;
+}
+
 p {
   font-family: "Inconsolata", sans-serif;
   text-align: center;

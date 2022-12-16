@@ -36,3 +36,14 @@ img {
   height: 200px;
   border-radius: 0px;
 }
+
+ol {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: light;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+
+/* ul {
+  list-style: none;
+} */

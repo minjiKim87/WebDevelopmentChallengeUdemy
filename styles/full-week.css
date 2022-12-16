@@ -1,38 +1,13 @@
-body {
-  background-color: rgb(245, 243, 246);
-  text-align: center;
-}
-
-h1 {
-  font-family: "Inconsolata", sans-serif;
-  text-align: center;
-  color: rgb(25, 200, 188);
-  font-size: bold;
-}
-
-p {
-  font-family: "Inconsolata", sans-serif;
-  text-align: center;
-  color: rgb(66, 66, 66);
-}
-
 a {
-  color: rgb(1, 167, 123);
-  text-decoration: none;
+  padding: 12px;
+  font-family: "Inconsolata", sans-serif;
+  background-color: aquamarine;
+  color: rgb(89, 89, 89);
+  border: 1px solid rgb(0, 152, 68);
+  border-radius: 4px;
+  font-size: 15px;
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-#todays-challenge {
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: bold;
-}
-
-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 0px;
+  text-decoration: none;
 }
