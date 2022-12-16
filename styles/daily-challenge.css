@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: rgb(245, 243, 246);
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  color: rgb(25, 200, 188);
+  font-size: bold;
+}
+
+p {
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  color: rgb(66, 66, 66);
+}
+a {
+  color: rgb(1, 167, 123);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#todays-challenge {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: bold;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
+}
