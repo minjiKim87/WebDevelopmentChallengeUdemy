@@ -3,13 +3,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-family: "Inconsolata", sans-serif;
-  text-align: center;
-  color: rgb(25, 200, 188);
-  font-size: bold;
-}
-
 h2 {
   font-family: "Inconsolata", sans-serif;
   text-align: center;
@@ -21,15 +14,7 @@ p {
   font-family: "Inconsolata", sans-serif;
   text-align: center;
   color: rgb(66, 66, 66);
-}
-
-a {
-  color: rgb(1, 167, 123);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  margin: 36px;
 }
 
 #todays-challenge {

@@ -37,13 +37,16 @@ img {
   border-radius: 0px;
 }
 
+/* ul {
+  list-style: none;
+} */
+
 ol {
   font-family: "Inconsolata", sans-serif;
   font-weight: light;
   list-style: none;
   color: rgb(0, 0, 0);
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
 }
-
-/* ul {
-  list-style: none;
-} */
