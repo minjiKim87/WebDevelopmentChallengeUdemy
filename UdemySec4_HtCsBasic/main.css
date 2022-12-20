@@ -1,0 +1,27 @@
+body {
+  font-family: "Inconsolata", sans-serif;
+  background-color: rgb(254, 255, 244);
+}
+
+h1 {
+  font-size: 52px;
+  color: rgb(226, 141, 43);
+}
+header {
+  text-align: center;
+  padding: 32px;
+}
+
+header img {
+  width: 300px;
+}
+
+p {
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  color: rgb(66, 66, 66);
+}
+
+h1 {
+  text-align: center;
+}
