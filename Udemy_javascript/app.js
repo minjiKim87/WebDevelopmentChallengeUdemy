@@ -1,21 +1,21 @@
-// console.log(window.document);
+let paragraphElement = document.querySelector("p");
 
-// let anchorElement = document.getElementById("external-link");
-// anchorElement.href = "https://google.com";
+function changeParagraphText() {
+  paragraphElement.textContent = "Clicked!";
+  console.log("Paragraph clicked!");
+}
 
-// anchorElement = document.querySelector("#external-id");
-// anchorElement.href = "https://academind.com";
+paragraphElement.addEventListener("click", changeParagraphText);
 
-let h1Element = document.body.firstElementChild;
-h1Element = document.body.firstElementChild[0];
+let inputElement = document.querySelector("input");
 
-console.dir(h1Element.parentElement);
-console.dir(h1Element.nextElementSibling);
+function retrieveUserInput(event) {
+  //매개변수 이름 event
+  // let enteredText = inputElement.value;
+  // let enteredText = event.target.value;
+  // let enteredText = event.data; => This is different!
+  console.log(enteredText);
+  //console.log(event);
+}
 
-h1Element = document.body.firstElementChild[0];
-
-let highlightedParagraph = document.querySelector(".highlighted-paragraph");
-
-let newAnchorElement = document.createElement("a");
-let firstParagraph = document.querySelector("p");
-firstParagraph.append(newAnchorElement);
+inputElement.addEventListener("input", retrieveUserInput);
