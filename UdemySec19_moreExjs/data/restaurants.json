@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "r1",
+    "name": "Test",
+    "address": "Test",
+    "cuisine": "Test",
+    "website": "http://test",
+    "description": "test"
+  },
+  {
+    "id": "r2",
+    "name": "Test",
+    "address": "Test",
+    "cuisine": "Test",
+    "website": "http://test",
+    "description": "test"
+  },
+  {
+    "id": "r3",
+    "name": "Test",
+    "address": "Test",
+    "cuisine": "Test",
+    "website": "http://test",
+    "description": "test"
+  }
+]
